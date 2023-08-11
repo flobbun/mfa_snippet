@@ -1,0 +1,13 @@
+.root {
+    @apply flex items-center justify-center text-center h-screen sm:p-4;
+    background: linear-gradient(-45deg, #19718a, #000000);
+    background-size: 400% 400%;
+}
+
+.title {
+    @apply text-6xl tracking-wider mb-8;
+}
+
+.loginCard {
+    @apply flex flex-col p-8 sm:h-1/2 h-full justify-center gap-y-12 shadow-2xl shadow-[#000000f1];
+}

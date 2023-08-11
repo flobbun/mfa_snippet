@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    font-family: 'Abril Fatface';
+}
+
+p, button, a, span, input, label {
+    font-family: 'Roboto', sans-serif;
+}
